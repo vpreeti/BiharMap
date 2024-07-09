@@ -1,0 +1,43 @@
+.map-container {
+    width: 50%;
+    height: 570px;
+    background-color: aqua;
+    overflow: hidden; /* Ensures SVG overflow is hidden */
+  }
+  
+  .map-container svg {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(14, 51, 103);
+  }
+  
+  .district-polygon {
+    fill: gray;
+    stroke: black;
+    stroke-width: 1;
+    
+  }
+  
+  .district-text {
+    fill: black;
+    font-size: 10px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  .hover-group {
+    pointer-events: none; /* Prevents interaction with hover group */
+  }
+  
+  .hover-background {
+    fill: black;
+  }
+  
+  .hover-text {
+    fill: yellow;
+    font-size: 14px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none; /* Prevent text from capturing mouse events */
+  }
+  
